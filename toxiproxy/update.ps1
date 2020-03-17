@@ -8,6 +8,10 @@ function global:au_SearchReplace {
             "(^[$]cliUrl\s*=\s*)('.*')"         = "`$1'$($Latest.UrlCli)'"
             "(^[$]cliChecksum\s*=\s*)('.*')"    = "`$1'$($Latest.ChecksumCli)'"
         }
+
+        "$($Latest.PackageName).nuspec" = @{
+            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
+        }
     }
 }
 
@@ -26,9 +30,8 @@ function global:au_GetLatest {
 
     @{
         UrlServer      = $serverUrl
-        ServerChecksum = $serverUrl
         UrlCli         = $cliUrl
-        CliChecksum    = $cliUrl
+        ReleaseNotes   = $release.html_url
         Version        = $release.tag_name.Substring(1)
     }
 }

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -9,6 +9,7 @@
     <title>Toxiproxy</title>
     <authors>Shopify</authors>
     <projectUrl>http://toxiproxy.io</projectUrl>
+    <iconUrl>http://i.imgur.com/sOaNw0o.png</iconUrl>
     <copyright>Shopify</copyright>
     <licenseUrl>https://github.com/Shopify/toxiproxy/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -22,6 +23,7 @@
       CI and development environments, supporting deterministic tampering with connections, but with support
       for randomized chaos and customization.
     </description>
+    <releaseNotes>https://github.com/Shopify/toxiproxy/releases/tag/v2.1.4</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
