@@ -16,7 +16,7 @@
     <projectSourceUrl>https://github.com/shopify/toxiproxy</projectSourceUrl>
     <docsUrl>https://github.com/Shopify/toxiproxy/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/Shopify/toxiproxy/issues</bugTrackerUrl>
-    <tags>toxiproxy</tags>
+    <tags>toxiproxy 64-bit</tags>
     <summary>A TCP proxy to simulate network and system conditions for chaos and resiliency testing</summary>
     <description>
       Toxiproxy is a framework for simulating network conditions. It's made specifically to work in testing,

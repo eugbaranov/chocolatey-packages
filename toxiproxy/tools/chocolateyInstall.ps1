@@ -9,7 +9,7 @@ $cliUrl = 'https://github.com/Shopify/toxiproxy/releases/download/v2.1.4/toxipro
 $cliChecksum = '1184dfd205f3ec1bd56172313265ed499e708c25dc2e41b1c332a35e3ee7a4db'
 
 Get-ChocolateyWebFile -PackageName $packageName -FileFullPath "$toolsDir\toxiproxy-server.exe" `
-    -Url $serverUrl -Checksum $serverChecksum -ChecksumType Sha256
+    -Url64bit $serverUrl -Checksum64 $serverChecksum -ChecksumType64 Sha256
 
-Get-ChocolateyWebFile -PackageName $packageName  -FileFullPath "$toolsDir\toxiproxy-cli.exe" `
-    -Url $cliUrl -Checksum $cliChecksum -ChecksumType Sha256
+Get-ChocolateyWebFile -PackageName $packageName -FileFullPath "$toolsDir\toxiproxy-cli.exe" `
+    -Url64bit $cliUrl -Checksum64 $cliChecksum -ChecksumType64 Sha256
