@@ -1,10 +1,17 @@
-[![](https://ci.appveyor.com/api/projects/status/github/eugbaranov/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/eugbaranov/chocolatey-packages)
+# Chocolatey Packages
+
+[![Build status](https://ci.appveyor.com/api/projects/status/github/eugbaranov/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/eugbaranov/chocolatey-packages)
 [Update status](https://gist.github.com/eugbaranov/dc1e9ae0defb8daba647360ca869eb97)
-[![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/eugb](https://chocolatey.org/profiles/eugb)
 
 This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
 The repository is setup so that you can manage your packages entirely from the GitHub web interface (using AppVeyor to update and push packages) and/or using the local repository copy.
+
+## Packages
+
+### Toxiproxy
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
 
 ## Prerequisites
 
