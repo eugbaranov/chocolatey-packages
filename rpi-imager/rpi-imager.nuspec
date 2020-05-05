@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rpi-imager</id>
+    <version>1.2</version>
+    <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/rpi-imager</packageSourceUrl>
+    <owners>eugb</owners>
+    <title>Raspberry Pi Imager</title>
+    <authors>Raspberry Pi Foundation</authors>
+    <projectUrl>https://www.raspberrypi.org/downloads/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/rpi-imager/RPi-Logo-SCREEN.png</iconUrl>
+    <copyright>Raspberry Pi Foundation</copyright>
+    <licenseUrl>https://github.com/raspberrypi/rpi-imager/blob/qml/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/raspberrypi/rpi-imager</projectSourceUrl>
+    <docsUrl>https://github.com/raspberrypi/rpi-imager/blob/qml/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/raspberrypi/rpi-imager/issues</bugTrackerUrl>
+    <tags>raspberry-pi raspberry pi image imager sd flash</tags>
+    <summary>Raspberry Pi Imaging Utility</summary>
+    <description>Raspberry Pi Imaging Utility</description>
+    <releaseNotes>https://github.com/raspberrypi/rpi-imager/releases/tag/v1.2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
