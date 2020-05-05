@@ -9,9 +9,21 @@ The repository is setup so that you can manage your packages entirely from the G
 
 ## Packages
 
-### Toxiproxy
+### toxiproxy
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
+
+### toxiproxy-cli
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy-cli.svg)](https://chocolatey.org/packages/toxiproxy-cli)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy-cli.svg)](https://chocolatey.org/packages/toxiproxy-cli)
+
+### toxiproxy-server
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy-server.svg)](https://chocolatey.org/packages/toxiproxy-server)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy-server.svg)](https://chocolatey.org/packages/toxiproxy-server)
+
+### rpi-imager
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
 
 ## Prerequisites
 
