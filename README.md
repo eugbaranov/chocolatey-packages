@@ -9,6 +9,14 @@ The repository is setup so that you can manage your packages entirely from the G
 
 ## Packages
 
+### azure-cosmosdb-emulator
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/azure-cosmosdb-emulator.svg)](https://chocolatey.org/packages/azure-cosmosdb-emulator)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/azure-cosmosdb-emulator.svg)](https://chocolatey.org/packages/azure-cosmosdb-emulator)
+
+### rpi-imager
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
+
 ### toxiproxy
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy.svg)](https://chocolatey.org/packages/toxiproxy)
@@ -20,10 +28,6 @@ The repository is setup so that you can manage your packages entirely from the G
 ### toxiproxy-server
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/toxiproxy-server.svg)](https://chocolatey.org/packages/toxiproxy-server)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/toxiproxy-server.svg)](https://chocolatey.org/packages/toxiproxy-server)
-
-### rpi-imager
-[![Chocolatey package version](https://img.shields.io/chocolatey/v/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
-[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
 
 ## Prerequisites
 
