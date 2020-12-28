@@ -17,9 +17,9 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $release = (Invoke-WebRequest -Uri "$releases/latest" -UseBasicParsing).Content | ConvertFrom-Json
+    $release = (Invoke-WebRequest -Uri "$releases/latest").Content | ConvertFrom-Json
 
-    $url = $release.assets | Where-Object { $_.name -eq 'imager.exe' } | Select-Object -First 1 -ExpandProperty browser_download_url
+    $url = $release.assets | Where-Object { $_.name -match 'imager.*.exe' } | Select-Object -First 1 -ExpandProperty browser_download_url
 
     @{
         URL32        = $url
