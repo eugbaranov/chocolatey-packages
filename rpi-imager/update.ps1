@@ -23,7 +23,7 @@ function global:au_GetLatest {
 
     @{
         URL32        = $url
-        Version      = $release.tag_name.Substring(1)
+        Version      = $release.tag_name.TrimStart('v')
         ReleaseNotes = $release.html_url
     }
 }
