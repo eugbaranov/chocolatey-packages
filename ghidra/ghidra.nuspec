@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ghidra</id>
-    <version>9.2.4</version>
+    <version>10.0</version>
     <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/ghidra</packageSourceUrl>
     <owners>eugb</owners>
     <title>Ghidra</title>
