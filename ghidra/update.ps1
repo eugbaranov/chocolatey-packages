@@ -1,6 +1,7 @@
 import-module au
 
-$releases = 'https://ghidra-sre.org/'
+$repo = 'NationalSecurityAgency/ghidra'
+$releases = "https://api.github.com/repos/$repo/releases"
 
 function global:au_SearchReplace {
     @{
@@ -18,15 +19,12 @@ function global:au_BeforeUpdate() {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest $releases
-    $latest = $download_page.links | Where-Object href -match '.zip$' | Select-Object -First 1 -Expand href
-    $url = $releases + $latest
-    $parts = $latest.Split('_')
-    $version = $parts[1]
-
+    $release = (Invoke-WebRequest -Uri "$releases/latest").Content | ConvertFrom-Json
+    $url = $release.assets | Where-Object { $_.name -match 'ghidra.*.zip' } | Select-Object -First 1 -ExpandProperty browser_download_url
     @{
         URL64   = $url
-        Version = $version
+        Version = $release.tag_name.Split('_')[1]
+        ReleaseNotes = $release.html_url
     }
 }
 
