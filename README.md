@@ -13,6 +13,10 @@ The repository is setup so that you can manage your packages entirely from the G
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/azure-cosmosdb-emulator.svg)](https://chocolatey.org/packages/azure-cosmosdb-emulator)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/azure-cosmosdb-emulator.svg)](https://chocolatey.org/packages/azure-cosmosdb-emulator)
 
+### backupper-standard
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/backupper-standard.svg)](https://chocolatey.org/packages/backupper-standard)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/backupper-standard.svg)](https://chocolatey.org/packages/backupper-standard)
+
 ### ghidra
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/ghidra.svg)](https://chocolatey.org/packages/ghidra)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/ghidra.svg)](https://chocolatey.org/packages/ghidra)
