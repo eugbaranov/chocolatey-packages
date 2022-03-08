@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/Shopify/toxiproxy/releases/download/v2.3.0/toxiproxy-server-windows-amd64.exe
+   x64: https://github.com/Shopify/toxiproxy/releases/download/v2.4.0/toxiproxy-server-windows-amd64.exe
 
    to download the installer.
 
@@ -15,11 +15,11 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 847CDA601534E17F08AB691603C099ADDA1BFB0736D41C1B8A85274C6AFB6C2B
+   checksum64: 61A5F8CCAAB368E6F17532F6C8A49534C82EFFAD0CC7DDE44FA77E4E18107348
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/Shopify/toxiproxy/releases/download/v2.3.0/toxiproxy-server-windows-amd64.exe
+   Get-RemoteChecksum https://github.com/Shopify/toxiproxy/releases/download/v2.4.0/toxiproxy-server-windows-amd64.exe
 
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/Shopify/toxiproxy/master/LICENSE
