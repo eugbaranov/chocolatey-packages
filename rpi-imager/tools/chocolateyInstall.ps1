@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url      = 'https://github.com/raspberrypi/rpi-imager/releases/download/v1.7.1/imager-1.7.1.exe'
+$url      = 'https://github.com/raspberrypi/rpi-imager/releases/download/v1.7.2/imager-1.7.2.exe'
 
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
     fileType       = 'EXE'
     url            = $url
     softwareName   = 'Raspberry Pi Imager'
-    checksum       = '04c2bcd64ef5ad6c31ee47bed7d6c60c3694ea5d40f7f05dd190b93d9c57743d'
+    checksum       = 'c6a8948ceab92e1befbd1ffadbe93757d815b2741d1b661c8a41498746045166'
     checksumType   = 'sha256'
     silentArgs     = '/S'
     validExitCodes = @(0)
