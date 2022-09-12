@@ -18,7 +18,7 @@
     <bugTrackerUrl>https://github.com/raspberrypi/rpi-imager/issues</bugTrackerUrl>
     <tags>raspberry-pi raspberry pi image imager sd flash</tags>
     <summary>Raspberry Pi Imaging Utility</summary>
-    <description>Raspberry Pi Imaging Utility</description>
+    <description>A simpler way to image your microSD card with Raspbian, the official Raspberry Pi operating system, and other operating systems.</description>
     <releaseNotes>https://github.com/raspberrypi/rpi-imager/releases/tag/v1.7.3</releaseNotes>
   </metadata>
   <files>
