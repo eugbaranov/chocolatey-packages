@@ -8,7 +8,7 @@
     <owners>eugb</owners>
     <title>Toxiproxy Server</title>
     <authors>Shopify</authors>
-    <projectUrl>http://toxiproxy.io</projectUrl>
+    <projectUrl>https://github.com/shopify/toxiproxy</projectUrl>
     <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/bce42649/toxiproxy/toxiproxy.png</iconUrl>
     <copyright>Shopify</copyright>
     <licenseUrl>https://github.com/Shopify/toxiproxy/blob/master/LICENSE</licenseUrl>
