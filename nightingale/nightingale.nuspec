@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nightingale</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/nightingale</packageSourceUrl>
+    <owners>eugb</owners>
+    <title>Nightingale</title>
+    <authors>Jenius Apps</authors>
+    <projectUrl>https://nightingale.rest/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/nightingale/v4_logo.png</iconUrl>
+    <copyright>Jenius Apps</copyright>
+    <licenseUrl>https://github.com/jenius-apps/nightingale-rest-api-client/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jenius-apps/nightingale-rest-api-client</projectSourceUrl>
+    <docsUrl>https://github.com/jenius-apps/nightingale-rest-api-client/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/jenius-apps/nightingale-rest-api-client/issues</bugTrackerUrl>
+    <tags>nightingale rest api client</tags>
+    <summary>Nightingale - A modern, resource-efficient REST API client for Windows 10</summary>
+    <description>Nightingale - A modern, resource-efficient REST API client for Windows 10</description>
+    <releaseNotes>https://github.com/jenius-apps/nightingale-rest-api-client/releases/tag/v1.0.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
