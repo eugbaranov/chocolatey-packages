@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jellyfin</id>
+    <version>10.7.7</version>
+    <title>Jellyfin (Install)</title>
+    <owners>K900, bcurran3</owners>
+    <packageSourceUrl>https://gitlab.com/K900/chocolatey-packages</packageSourceUrl>
+    <authors>The Jellyfin Project</authors>
+    <copyright>Copyright (c) Jellyfin</copyright>
+    <licenseUrl>https://github.com/jellyfin/jellyfin/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://jellyfin.org/</projectUrl>
+    <projectSourceUrl>https://github.com/jellyfin/jellyfin</projectSourceUrl>
+    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/jellyfin/icon.png</iconUrl>
+    <docsUrl>https://jellyfin.org/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/jellyfin/jellyfin/issues</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+![Screenshot of Jellyfin](https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/jellyfin/screenshot.png)
+
+### What is Jellyfin?
+Jellyfin enables you to collect, manage, and stream your media. Run the Jellyfin server on your system and gain access to the leading free-software entertainment system, bells _and_ whistles included.
+
+### Movies
+Hold your entire movie collection, with a beautiful collection of posters.
+
+### TV Shows
+Collect your TV Shows, and have them automatically organized by season.
+
+### Music
+Enjoy your own music collection. Make playlists, and listen on the go.
+
+### Live TV &amp; DVR
+Watch Live TV and set automatic recordings to expand your media library.
+
+### Your media, for wherever you are.
+Jellyfin lets you watch your media from a web browser on your computer, apps on your Android, iOS (including AirPlay), Android TV, or Fire TV device, or via your Chromecast or existing Kodi installation. And clients for Roku and other platforms are on the way.
+
+### It's your data.
+Jellyfin has no tracking, phone-home, or central servers collecting your data. We believe in keeping our software open and transparent, and anything we might collect (crash logs, etc.) is opt-in only. We're also not in the media business, so the only media you see is your own.
+
+### Yes, it really costs nothing.
+The Jellyfin server and clients are free to download, now and always. There are no costs, hidden or otherwise, to use Jellyfin, either for yourself, for your friends, or for your company. All our incidental costs are paid through donations from users like you.
+
+### Software freedom is important.
+Jellyfin is Free Software, licensed under the GNU GPL. You can use it, study it, modify it, build it, and distribute it for free, as long as your changes are licensed the same way.
+
+The project is community-built, relying entirely on contributions from volunteers to improve. Want to help out? There's lots of ways to do so, and you don't even have to code! See our Contribution Guide for more details.
+
+    </description>
+    <summary>Jellyfin - The Free Software Media System</summary>
+    <releaseNotes>https://github.com/jellyfin/jellyfin/releases</releaseNotes>
+    <tags>jellyfin emby media server streaming video music photos tv dlna foss cross-platform binary</tags>
+    <dependencies>
+        <dependency id="chocolatey-misc-helpers.extension" version="0.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
