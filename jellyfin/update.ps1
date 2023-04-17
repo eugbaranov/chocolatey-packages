@@ -22,4 +22,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -Debug
+Update-Package 64

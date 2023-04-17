@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>jellyfin</id>
-    <version>10.7.7</version>
+    <version>10.8.9.20230417</version>
     <title>Jellyfin (Install)</title>
-    <owners>K900, bcurran3</owners>
-    <packageSourceUrl>https://gitlab.com/K900/chocolatey-packages</packageSourceUrl>
+    <owners>K900, bcurran3, eugb</owners>
+    <packageSourceUrl>https://gitlab.com/eugbaranov/chocolatey-packages/tree/master/jellyfin</packageSourceUrl>
     <authors>The Jellyfin Project</authors>
     <copyright>Copyright (c) Jellyfin</copyright>
     <licenseUrl>https://github.com/jellyfin/jellyfin/blob/master/LICENSE</licenseUrl>

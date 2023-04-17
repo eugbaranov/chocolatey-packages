@@ -14,13 +14,13 @@ function CreateShortcut {
 
 Install-ChocolateyPackage `
     -PackageName $env:ChocolateyPackageName `
-    -FileType 'EXE'
+    -FileType 'EXE' `
     -Url64bit 'https://repo.jellyfin.org/releases/server/windows/stable/installer/jellyfin_10.8.9_windows-x64.exe' `
     -Checksum64 '' `
     -ChecksumType64 '' `
-    -SilentArgs     = '/S' `
-    -ValidExitCodes = @(0,1) `
-    -SoftwareName   = 'Jellyfin Server*'
+    -SilentArgs '/S' `
+    -ValidExitCodes @(0,1) `
+    -SoftwareName 'Jellyfin Server*'
 
 CreateShortcut -Path "$ENV:Public\Desktop"
 CreateShortcut -Path "$ENV:ProgramData\Microsoft\Windows\Start Menu\Programs"
