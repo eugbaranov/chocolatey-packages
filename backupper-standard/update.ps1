@@ -11,10 +11,12 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $release = Invoke-WebRequest -Uri 'https://www.ubackup.com/free-backup-software.html'
-    $version = ($release.AllElements | Where-Object { $_.tagName -eq 'SPAN' -and $_.{data--release} -eq 'version' }).innerHTML
+    $release = Invoke-WebRequest -Uri 'https://www.ubackup.com/download.html'
+    $version = $release.AllElements `
+        | Where-Object { $_.tagName -eq 'DIV' -and $_.innerText -like '?.?.?' } `
+        | Select-Object -ExpandProperty innerHTML
 
-    $url = 'https://www2.aomeisoftware.com/download/adb/AOMEIBackupperStd.exe'
+    $url = 'https://www.ubackup.com/ss/download/adb/AOMEIBackupperStd.exe'
 
     @{
         URL32   = $url

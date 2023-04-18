@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url      = 'https://www2.aomeisoftware.com/download/adb/AOMEIBackupperStd.exe'
+$url      = 'https://www.ubackup.com/ss/download/adb/AOMEIBackupperStd.exe'
 
 $packageArgs = @{
     packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
     fileType      = 'EXE'
     url           = $url
     softwareName  = 'AOMEI Backupper Standard*'
-    checksum      = 'f0728cf53792980716e7a34f28d5e22a489cb3b7816ae96462695cf47411af2d'
+    checksum      = '62173ab725397d5ed97e029ec577dec4188c41903d2791c157f27090d8d50058'
     checksumType  = 'sha256'
     silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
