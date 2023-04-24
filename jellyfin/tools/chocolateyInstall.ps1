@@ -15,9 +15,9 @@ function CreateShortcut {
 Install-ChocolateyPackage `
     -PackageName $env:ChocolateyPackageName `
     -FileType 'EXE' `
-    -Url64bit 'https://repo.jellyfin.org/releases/server/windows/stable/installer/jellyfin_10.8.9_windows-x64.exe' `
-    -Checksum64 '' `
-    -ChecksumType64 '' `
+    -Url64bit 'https://repo.jellyfin.org/releases/server/windows/stable/installer/jellyfin_10.8.10_windows-x64.exe' `
+    -Checksum64 '76cc7b43f806380c3f8fa8dbe7ab93173794d84b2a6c095703eb0b3debb8b23d' `
+    -ChecksumType64 'sha256' `
     -SilentArgs '/S' `
     -ValidExitCodes @(0,1) `
     -SoftwareName 'Jellyfin Server*'
