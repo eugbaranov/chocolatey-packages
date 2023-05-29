@@ -8,7 +8,7 @@ $packageArgs = @{
     fileType      = 'EXE'
     url           = $url
     softwareName  = 'AOMEI Backupper Standard*'
-    checksum      = '80794d1f190b2087f60a9f23578cc6964ff88d990195a0b1df438cc80d079c9a'
+    checksum      = 'd7793e37854aed9a7b50d8905e76ce920ece6b7fc107aa9d6476e816f4656c51'
     checksumType  = 'sha256'
     silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
