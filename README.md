@@ -25,6 +25,10 @@ The repository is setup so that you can manage your packages entirely from the G
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/jellyfin.svg)](https://chocolatey.org/packages/jellyfin)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/jellyfin.svg)](https://chocolatey.org/packages/jellyfin)
 
+### jetbrainsmono
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/jetbrainsmono.svg)](https://chocolatey.org/packages/jetbrainsmono)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/jetbrainsmono.svg)](https://chocolatey.org/packages/jetbrainsmono)
+
 ### rpi-imager
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/rpi-imager.svg)](https://chocolatey.org/packages/rpi-imager)

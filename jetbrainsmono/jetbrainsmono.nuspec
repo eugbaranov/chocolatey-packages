@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jetbrainsmono</id>
+    <version>2.225.0</version>
+    <title>JetBrainsMono (Install)</title>
+    <authors>JetBrains</authors>
+    <owners>eugb</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <packageSourceUrl>https://gitlab.com/eugbaranov/chocolatey-packages/tree/master/jetbrainsmono</packageSourceUrl>
+    <projectUrl>https://www.jetbrains.com/lp/mono/</projectUrl>
+    <licenseUrl>https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt</licenseUrl>
+    <projectSourceUrl>https://github.com/JetBrains/JetBrainsMono</projectSourceUrl>
+    <description>More about font features and design can be found on [its official page](https://www.jetbrains.com/lp/mono/).</description>
+    <summary>chocolatey-font-helpers.extension</summary>
+    <releaseNotes>https://github.com/JetBrains/JetBrainsMono/releases/tag/v2.225</releaseNotes>
+    <tags>jetbrains jetbrains-mono mono jetbrainsmono font fontligatures</tags>
+    <dependencies>
+      <dependency id="chocolatey-font-helpers.extension" />
+    </dependencies>
+  </metadata>
+</package>
