@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>jetbrainsmono</id>
-    <version>2.225.0</version>
+    <version>2.304</version>
     <title>JetBrainsMono (Install)</title>
     <authors>JetBrains</authors>
     <owners>eugb</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/JetBrains/JetBrainsMono</projectSourceUrl>
     <description>More about font features and design can be found on [its official page](https://www.jetbrains.com/lp/mono/).</description>
     <summary>chocolatey-font-helpers.extension</summary>
-    <releaseNotes>https://github.com/JetBrains/JetBrainsMono/releases/tag/v2.225</releaseNotes>
+    <releaseNotes>https://github.com/JetBrains/JetBrainsMono/releases/tag/v2.304</releaseNotes>
     <tags>jetbrains jetbrains-mono mono jetbrainsmono font fontligatures</tags>
     <dependencies>
       <dependency id="chocolatey-font-helpers.extension" />
