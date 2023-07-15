@@ -17,6 +17,10 @@ The repository is setup so that you can manage your packages entirely from the G
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/backupper-standard.svg)](https://chocolatey.org/packages/backupper-standard)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/backupper-standard.svg)](https://chocolatey.org/packages/backupper-standard)
 
+### far
+[![Chocolatey package version](https://img.shields.io/chocolatey/v/far.svg)](https://chocolatey.org/packages/far)
+[![Chocolatey package download count](https://img.shields.io/chocolatey/dt/far.svg)](https://chocolatey.org/packages/far)
+
 ### ghidra
 [![Chocolatey package version](https://img.shields.io/chocolatey/v/ghidra.svg)](https://chocolatey.org/packages/ghidra)
 [![Chocolatey package download count](https://img.shields.io/chocolatey/dt/ghidra.svg)](https://chocolatey.org/packages/ghidra)

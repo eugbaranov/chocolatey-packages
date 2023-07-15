@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>far</id>
+    <version>3.0.0</version>
+    <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/far</packageSourceUrl>
+    <owners>eugb</owners>
+    <title>Far Manager</title>
+    <authors>Eugene Roshal,Far Group</authors>
+    <copyright>Eugene Roshal,Far Group</copyright>
+    <licenseUrl>http://farmanager.com/license.php?l=en</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://farmanager.com/index.php?l=en</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/far/icon.png</iconUrl>
+    <bugTrackerUrl>https://bugs.farmanager.com/</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/FarGroup/FarManager</projectSourceUrl>
+    <mailingListUrl>https://groups.google.com/group/fardeven</mailingListUrl>
+    <tags>admin console archiver file manager ftp scp sftp</tags>
+    <summary>File and ARchive Manager</summary>
+    <description>
+      Far Manager is a program for managing files and archives in Windows operating systems.
+      Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
