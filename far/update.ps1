@@ -15,7 +15,10 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $mainPage = 'https://www.farmanager.com'
+
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     $downloads = Invoke-WebRequest -Uri "$mainPage/download.php?l=en"
+
     $url32 = $downloads.Links | Where-Object { $_.href -like '*.x86.*.msi' } | Select-Object -ExpandProperty href -First 1
     $url64 = $downloads.Links | Where-Object { $_.href -like '*.x64.*.msi' } | Select-Object -ExpandProperty href -First 1
 
