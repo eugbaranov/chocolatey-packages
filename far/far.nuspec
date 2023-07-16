@@ -12,7 +12,7 @@
     <licenseUrl>http://farmanager.com/license.php?l=en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>http://farmanager.com/index.php?l=en</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/far/icon.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/master/far/logo.png</iconUrl>
     <bugTrackerUrl>https://bugs.farmanager.com/</bugTrackerUrl>
     <projectSourceUrl>https://github.com/FarGroup/FarManager</projectSourceUrl>
     <mailingListUrl>https://groups.google.com/group/fardeven</mailingListUrl>
