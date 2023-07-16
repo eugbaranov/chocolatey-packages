@@ -10,6 +10,9 @@ branches:
 #build:
 #  verbosity: minimal
 
+# base image
+image: Visual Studio 2022
+
 environment:
   # Set au version to use or omit to use the latest. Specify branch name to use development version from Github
   au_version:
