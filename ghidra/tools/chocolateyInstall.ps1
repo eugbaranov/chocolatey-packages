@@ -3,8 +3,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage `
     -PackageName $env:ChocolateyPackageName `
-    -Url64bit 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.3.3_build/ghidra_10.3.3_PUBLIC_20230829.zip' `
-    -Checksum64 '63833361bea8ef5ada1bc28cd2aa2ae4ab43204d2672b595500372582152eebe' `
+    -Url64bit 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.4_build/ghidra_10.4_PUBLIC_20230928.zip' `
+    -Checksum64 '6911d674798f145f8ea723fdd3eb67a8fae8c7be92e117bca081e6ef66acac19' `
     -ChecksumType64 'sha256' `
     -UnzipLocation $toolsDir
 
