@@ -12,6 +12,7 @@
     <iconUrl>https://cdn.statically.io/gh/eugbaranov/chocolatey-packages/5253b982/azure-cosmosdb-emulator/Azure%20Cosmos%20DB.png</iconUrl>
     <copyright>Microsoft</copyright>
     <docsUrl>https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator</docsUrl>
+    <licenseUrl>https://marketplace.visualstudio.com/items/azure-cosmosdb.emulator-public-preview/license</licenseUrl>
     <tags>azure cosmos cosmosdb emulator</tags>
     <summary>Azure Cosmos Emulator</summary>
     <description>
