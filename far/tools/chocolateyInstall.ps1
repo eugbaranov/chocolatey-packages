@@ -3,12 +3,12 @@
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     fileType       = 'msi'
-    url            = 'https://www.farmanager.com/files/Far30b6226.x86.20231214.msi'
-    url64bit       = 'https://www.farmanager.com/files/Far30b6226.x64.20231214.msi'
+    url            = 'https://www.farmanager.com/files/Far30b6300.x86.20240407.msi'
+    url64bit       = 'https://www.farmanager.com/files/Far30b6300.x64.20240407.msi'
     softwareName   = 'Far Manager*'
-    checksum       = '9eb888452e98ae4e192797b284af23889688d4f75fc766836f49534948c49531'
+    checksum       = 'ed28ab359bef9adce89a06660d04dcba981d8479fcde03db95214e9a6085e66f'
     checksumType   = 'sha256'
-    checksum64     = 'ce93dada3365be8000a409b10ea255f7b5d521bb313fcdd11cd4fe7a90dcca4f'
+    checksum64     = 'bb54ecf43a539dac9b0c4eb0b95b93b54547036e5d25ac6059eaa2cea26c1f71'
     checksumType64 = 'sha256'
     silentArgs     = '/qn /norestart'
     validExitCodes = @(0, 3010, 1641)

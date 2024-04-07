@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>far</id>
-    <version>3.0.6226</version>
+    <version>3.0.6300</version>
     <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/far</packageSourceUrl>
     <owners>eugb</owners>
     <title>Far Manager</title>
