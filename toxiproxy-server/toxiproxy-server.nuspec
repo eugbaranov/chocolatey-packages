@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>toxiproxy-server</id>
-    <version>2.11.0</version>
+    <version>2.12.0</version>
     <packageSourceUrl>https://github.com/eugbaranov/chocolatey-packages/tree/master/toxiproxy-server</packageSourceUrl>
     <owners>eugb</owners>
     <title>Toxiproxy Server</title>
@@ -23,7 +23,7 @@
       CI and development environments, supporting deterministic tampering with connections, but with support
       for randomized chaos and customization.
     </description>
-    <releaseNotes>https://github.com/Shopify/toxiproxy/releases/tag/v2.11.0</releaseNotes>
+    <releaseNotes>https://github.com/Shopify/toxiproxy/releases/tag/v2.12.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
