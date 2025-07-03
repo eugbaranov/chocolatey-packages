@@ -10,11 +10,6 @@ function global:au_SearchReplace {
     }
 }
 
-function global:au_BeforeUpdate() {
-    $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
-    $Latest.ChecksumType64 = 'sha256'
-}
-
 function global:au_GetLatest {
     $response = Invoke-WebRequest https://aka.ms/cosmosdb-emulator -MaximumRedirection 0 -ErrorAction SilentlyContinue
     $url = $response.Headers.Location
@@ -27,4 +22,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor 64
+Update-Package -ChecksumFor 64 -Force
