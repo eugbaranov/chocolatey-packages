@@ -10,7 +10,7 @@ $packageArgs = @{
     softwareName   = 'Raspberry Pi Imager'
     checksum       = '2c77d0c513dd51e67ae7c362a581f72373a9e4ab22a31344123b1f3de56f748d'
     checksumType   = 'sha256'
-    silentArgs     = '/S'
+    silentArgs     = '/verysilent'
     validExitCodes = @(0)
 }
 
